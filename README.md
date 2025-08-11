@@ -37,3 +37,33 @@ GarageCars: Garage capacity
 YearRemodAdd: Remodeling year
 Location Variables: Zoning, neighborhood characteristics
 Quality Metrics: Overall condition and quality ratings
+
+housing-price-prediction/
+├── README.md                          # Project documentation
+├── Methodology_Final.docx             # Detailed methodology report
+├── data/
+│   ├── train.csv                      # Training dataset
+│   ├── test.csv                       # Test dataset
+│   └── sample_submission.csv          # Submission format
+├── src/
+│   ├── data_preprocessing.R           # Data cleaning and preparation
+│   ├── feature_engineering.R         # Feature creation and selection
+│   ├── model_training.R               # Individual model implementations
+│   ├── ensemble_methods.R             # Ensemble learning techniques
+│   ├── model_evaluation.R             # Performance metrics and validation
+│   └── prediction_generation.R       # Final prediction creation
+├── notebooks/
+│   ├── exploratory_data_analysis.Rmd # EDA and visualization
+│   ├── model_comparison.Rmd          # Model performance analysis
+│   └── feature_importance.Rmd        # Feature analysis
+├── results/
+│   ├── model_performance_chart.png   # Performance comparison visualization
+│   ├── feature_importance_plot.png   # Feature importance analysis
+│   ├── predictions.csv               # Final predictions
+│   └── model_metrics.csv             # Detailed performance metrics
+├── docs/
+│   ├── methodology.pdf               # Academic methodology document
+│   └── presentation.pptx             # Project presentation
+└── scripts/
+    ├── run_full_pipeline.R           # Complete analysis pipeline
+    └── generate_submission.R         # Kaggle submission generator
